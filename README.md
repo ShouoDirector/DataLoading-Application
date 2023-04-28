@@ -11,9 +11,4 @@ This program includes Data Loading, Conversion, and Database Backup functions. U
 7.) In addition, the program allows users to delete a specified row or column by inputting the number of the column or row. 
 8.) Finally, users can create a new csv file and ability to specify the number of rows and columns for the new file.
 9.) Final stretch, the function export can be accessed across modules, lets say we want to call the BackupCsvButton_Click() method from Form2 in Form3 under a button.
-
-Private form2 As New Form2()
-
-Private Sub MyButton_Click(sender As Object, e As EventArgs) Handles MyButton.Click
-    form2.BackupCsvButton_Click(sender, e)
-End Sub
+ form2.BackupCsvButton_Click(sender, e)
