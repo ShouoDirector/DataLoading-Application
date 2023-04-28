@@ -1,0 +1,33 @@
+1. Upload CSV file from local computer
+
+2. Backup CSV file from data grid to local computer
+
+3. Delete csv file on local computer
+
+4. Clear contents in Data Grid View
+
+5. Go to cell, by specific column and row
+
+6. The location of focused cell is determined
+
+7. Remove specified row
+
+8. Remove specified column
+
+8. Create new CSV File with specific number of column and rows
+
+
+
+thats all.
+
+thank youuu
+
+
+
+
+
+
+
+
+
+
