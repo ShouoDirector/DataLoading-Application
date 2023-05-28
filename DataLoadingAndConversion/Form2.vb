@@ -19,7 +19,7 @@ Public Class Form2
         End If
     End Sub
 
-    Private Sub ParseCsvFile(sender As Object, e As DoWorkEventArgs)
+    Public Sub ParseCsvFile(sender As Object, e As DoWorkEventArgs)
         ' This method is run on a background thread and parses the CSV file
         Dim fileName As String = DirectCast(e.Argument, String)
         Dim csvData As New List(Of String())
@@ -36,7 +36,7 @@ Public Class Form2
         e.Result = csvData
     End Sub
 
-    Private Sub LoadCsvData(sender As Object, e As RunWorkerCompletedEventArgs)
+    Public Sub LoadCsvData(sender As Object, e As RunWorkerCompletedEventArgs)
         ' This method is run on the UI thread and loads the CSV data into a DataGridView
         Dim csvData As List(Of String()) = DirectCast(e.Result, List(Of String()))
         Dim header As String() = csvData(0)
@@ -325,5 +325,4 @@ Public Class Form2
             DataGridView1.DataSource = table
         End If
     End Sub
-
 End Class
