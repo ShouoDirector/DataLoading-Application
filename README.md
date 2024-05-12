@@ -1,4 +1,4 @@
-<div><h1>DataLoading Application</h1>
+<div><h1>📚 DataLoading Application</h1>
 <p>This program is designed to simplify Data Loading, Conversion, and Database Backup operations. Users can easily upload csv files, navigate cells, and manage files with ease. Thank you for choosing to use it!</p>
 <h3>Features:</h3>
 <ol>
